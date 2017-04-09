@@ -6,7 +6,7 @@
 // numbers 0-9
 // arbitrary symbols used in English (order and choices subjective)
 
-CODE = {
+const CODE = {
   // Lowercase
   'e' : 'C4',
   't' : 'D4',
@@ -97,9 +97,9 @@ CODE = {
   '+' : 'A#6',
   '_' : 'D#7',
   '^' : 'F#7',
-  '~' : 'G#7'
+  '~' : 'G#7',
   '@' : 'C#7',
   '`' : 'A#7'
 }
 
-export CODE
+export { CODE }
